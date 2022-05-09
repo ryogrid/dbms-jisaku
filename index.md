@@ -1,7 +1,7 @@
 # 自作RDBMSやろうぜ!
 ## このサイトの目的
 - RDBMS（いわゆるリレーショナルデータベース）というものはプログラミング言語の処理系や、OSなどと同様に、世の中で広く使われているソフトウェアであるにも関わらず、自作してみようと思うと日本語で記述されたサイトで、必要な情報・情報源がまとまったサイトがないことに気づきました
-- そこで、管理人他が開発を進めている[自作RDBMS SamehadaDB](https://github.com/ryogrid/SamehadaDB)が軌道に乗るまでの経験をベースに、自作RDBMSに関する情報をある程度分かりやすくまとめてみようと思った次第です
+- そこで、管理人他が開発を進めている自作RDBMSである [SamehadaDB](https://github.com/ryogrid/SamehadaDB) が軌道に乗るまでの経験をベースに、自作RDBMSに関する情報をある程度分かりやすくまとめてみようと思った次第です
   - 各々の情報・情報源はあいかわらず英語などが多くなるとは思います
 - なお、技術的な解説を管理者が行うつもりはなく、あくまで適切と思われる情報源をポイントするに留めます
 - GitHub Pagesで構築したWebページですので、Pull Requestなど送っていただければ可能な限り反映しますし、集合知的なやり方で良いものにしていければと考えています
@@ -28,7 +28,7 @@
   - WEB+DB PRESSは上のリンクから vol.122 だけのKindle版が購入できます
 - 管理人が自作RDBMSするにあたっていろいろとアドバイスをいただいている方の一人が[kumagi](https://github.com/kumagi)氏ですが、以下のようなものを執筆しているので、読んでおくと、後でああ、あの話かーという感じで役に立つかもしれません
   - [一人トランザクション技術 Advent Calendar 2016 - Qiita](https://qiita.com/advent-calendar/2016/transaction)
-  - 次のセクションのオープンコースウェアな講義で良く分からなかったときに参照する、というのでも良い気はします
+  - 次のセクションのオープンコースウェアな講義で良く分からなかったときに参照する、というのでもよい気はします
 
 ### オープンコースウェアで本格的なデータベースシステムの実装について学ぼう
 - ここについては以下のGitHubリポジトリにまとめておいたので、ひとまずそちらをご参照下さい
@@ -45,7 +45,7 @@
 ### アドバンスドなところも実装していこう
 - BusTubには残念ながら planner/optimizer に相当するところの実装やフロントエンドの実装がありません
 - [awesome-database-learning](https://github.com/pingcap/awesome-database-learning) を参照して気合で実装するのも良いかもしれませんが、なかなか大変らしいです（管理人らもまだそこまで達していない）
-- というわけで、英語ではありますが以下の書籍を参考に実装すると良いらしいです
+- というわけで、英語ではありますが以下の書籍を参考に実装するとよいらしいです
   - [ Edward Sciore 『Database Design and Implementation (Second Edition) 』](https://link.springer.com/book/10.1007/978-3-030-33836-7)
   - 通称、SimpleDB本とも呼ばれたりするらしく、SimpleDBというRDBMS実装（Java）をフロントエンドからストレージエンジンのところまで丸っと実装しています
   - SimpleDBのソースコードは著者のWebページから入手可能です
@@ -57,8 +57,8 @@
 ### 戦いはさらに続く
 - ここまでに挙げたものは基本的なところを、比較的一般的かつ、さほど難度の高くない手法で実装している認識ですが、RDBMSをより良いものにしようと思えば、やれることは際限なくあります
 - 例えば、logging/recoveryにおけるsnapshotにARIESなどを採用するというのもよいでしょう
-- そのあたりは [awesome-database-learning](https://github.com/pingcap/awesome-database-learning) など参照して各自追求していくと良いでしょう
-- あと、自作 (R)DBMSの世界で定番？なコンテンツとして通称redbook（赤本）などと呼ばれる 『Readings in Database Systems』というものがありまして、その内容は押さえておくとよいのだろうと思います
+- そのあたりは [awesome-database-learning](https://github.com/pingcap/awesome-database-learning) など参照して各自追求していきましょう（一緒に）
+- あと、自作 (R)DBMSの世界で定番？なコンテンツとして通称redbook（赤本）と呼ばれる 『Readings in Database Systems』というものがありまして、その内容は押さえておくとよいのだろうと思います
   - [Peter Bailis, Joseph M. Hellerstein, Michael Stonebraker, editors『Readings in Database Systems, 5th Edition』](https://www.redbook.io/)
 
 ## その他の自作RDBMSに関連するトピック
