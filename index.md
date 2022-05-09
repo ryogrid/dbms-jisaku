@@ -44,7 +44,7 @@
 
 ### アドバンスドなところも実装していこう
 - BusTubには残念ながら planner/optimizer に相当するところの実装やフロントエンドの実装がありません
-- [awesome-database-learning](https://github.com/pingcap/awesome-database-learning) を参照して気合で実装するのも良いかもしれませんが、なかなか大変らしいです（管理人もまだそこまで達していない）
+- [awesome-database-learning](https://github.com/pingcap/awesome-database-learning) を参照して気合で実装するのも良いかもしれませんが、なかなか大変らしいです（管理人らもまだそこまで達していない）
 - というわけで、英語ではありますが以下の書籍を参考に実装すると良いらしいです
   - [ Edward Sciore 『Database Design and Implementation (Second Edition) 』](https://link.springer.com/book/10.1007/978-3-030-33836-7)
   - 通称、SimpleDB本とも呼ばれたりするらしく、SimpleDBというRDBMS実装（Java）をフロントエンドからストレージエンジンのところまで丸っと実装しています
