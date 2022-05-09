@@ -26,7 +26,7 @@
     - [KOBA789/relly](https://github.com/KOBA789/relly)
   - 日本語で書かれているという点で、大変貴重な記事なのですが、実装がRustなため、Rust経験者でない場合、コードの読解は少し苦労するかもしれません 
   - WEB+DB PRESSは上のリンクから vol.122 だけのKindle版が購入できます
-- 管理人が自作RDBMSが自作RDBMSするにあたっていろいろとアドバイスをいただいている方の一人が[kumagi](https://github.com/kumagi)氏ですが、以下のようなものを執筆しているので、読んでおくと、後でああ、あの話かーという感じで役に立つかもしれません
+- 管理人が自作RDBMSするにあたっていろいろとアドバイスをいただいている方の一人が[kumagi](https://github.com/kumagi)氏ですが、以下のようなものを執筆しているので、読んでおくと、後でああ、あの話かーという感じで役に立つかもしれません
   - [一人トランザクション技術 Advent Calendar 2016 - Qiita](https://qiita.com/advent-calendar/2016/transaction)
   - 次のセクションのオープンコースウェアな講義で良く分からなかったときに参照する、というのでも良い気はします
 
