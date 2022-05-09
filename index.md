@@ -34,10 +34,10 @@
 - ここについては以下のGitHubリポジトリにまとめておいたので、ひとまずそちらをご参照下さい
   - [ryogrid/CMU_lecture_DATABASE_SYSTEMS_materials](https://github.com/ryogrid/CMU_lecture_DATABASE_SYSTEMS_materials)
 - 管理人および他のコミッタは、前出ですが、自作RDBMSとして [SamehadaDB](https://github.com/ryogrid/SamehadaDB) というものをちまちまと開発していますが、これは現状、上記のCMUの講義で扱っている教育用RDBMS実装 BusTubを C++ から Go言語にポーティングすることが主な作業となっています
-  - bruncolza氏が先だって [brunocalza/go-bustub](https://github.com/brunocalza/go-bustub) というプロジェクトを進めていたため、全てのポーティングを管理人が行ったわけではありません
+  - bruncalza氏が先だって [brunocalza/go-bustub](https://github.com/brunocalza/go-bustub) というプロジェクトを進めていたため、全てのポーティングを管理人が行ったわけではありません
   - なお、brunocalza氏は、時間が取れなくなったそうで、go-bustub プロジェクトは管理人が fork するしばらく前から更新されておらず、今後更新できる見込みも無いとのこと
     - 現状、やっている作業がgo-bustubのやろうとしていたことに類似しているだけであって、プロジェクトを引き継いだわけではありません
-  - 本家BusTubは講義の課題として実装の穴埋めをさせるように作られているため、歯抜けになっていますが、brunocolza氏及び管理人他はそれらの部分を埋める形でポーティングを行ったため、全てではないですが一応、一通り実装が行われています
+  - 本家BusTubは講義の課題として実装の穴埋めをさせるように作られているため、歯抜けになっていますが、brunocalza氏及び管理人他はそれらの部分を埋める形でポーティングを行ったため、全てではないですが一応、一通り実装が行われています
   - 従って、手前味噌ですが、BusTub相当の機能までであれば、SamehadaDBのコードベースを参考にしていただくのも良いのではないかと思います
     - 更新しきれていない部分も多いですが、[なんちゃってクラスダイアグラム](https://github.com/ryogrid/SamehadaDB/wiki/class_diagram_of_samehadaDB) も go-bustub読解の時点で作成したので、ご活用ください
   - (Go言語にポーティングしているのは写経的な意味と、個人的にC++のまま拡張していくの辛いな・・・と思ったためです)
