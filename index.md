@@ -64,5 +64,5 @@
 ## その他の自作RDBMSに関連するトピック
 - 何か載せたいものがあれば Pull Requestお願いします
 - 下の"ほげほげ"のような感じで並べていければと思います
-  - 必要であれば、https://github.com/dbms-jisaku の中にmdファイルなりhtmlファイルなり置いてもらって構いません
+  - 必要であれば、<https://github.com/dbms-jisaku> の中にmdファイルなりhtmlファイルなり置いてもらって構いません
 - [ほげほげ](https://ryogrid.github.io/dbms-jisaku)
