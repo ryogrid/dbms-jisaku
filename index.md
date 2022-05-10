@@ -78,3 +78,7 @@
 - 下の"ほげほげ"のような感じで並べていければと思います
   - 必要であれば、<https://github.com/dbms-jisaku> の中にmdファイルなりhtmlファイルなり置いてもらって構いません
 - [ほげほげ](https://ryogrid.github.io/dbms-jisaku)
+
+## ライセンス
+- 本サイトのコンテンツには [表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja) のライセンスが適用されます
+- 詳細はリポジトリ内のLICEBCEファイルをご参照下さい
