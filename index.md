@@ -81,4 +81,7 @@
 
 ## ライセンス
 - 本サイトのコンテンツには [表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja) のライセンスが適用されます
-- 詳細はリポジトリ内のLICEBCEファイルをご参照下さい
+- 詳細はリポジトリ内のLICENCEファイルをご参照下さい
+- faviconについて
+  - [vaadin](https://icon-icons.com/ja/users/QLAfZ5Txo40x6pWfXduTy/icon-sets/)により作成されたアイコンであり [表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja) のライセンスの下で提供されているものです
+
