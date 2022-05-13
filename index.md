@@ -81,6 +81,12 @@
   - 必要であれば、<https://github.com/dbms-jisaku> の中にmdファイルなりhtmlファイルなり置いてもらって構いません
 - [ほげほげ](https://ryogrid.github.io/dbms-jisaku)
 
+## データベースシステムに関連するトピック
+- 上のセクションと基本同じ感じですが、自作RDBMSというところからは離れたトピックもOKとします
+- [DBSJ最強データベース講義](https://www.youtube.com/channel/UCaOkRhbjsqviiDQdKn-p0HA/videos)
+  - 日本のアカデミアのデータベース研究者の方々がおおむね自身の研究分野について語った動画が公開されています
+  - どういう位置づけとして見るかは微妙ですが、データベース研究も様々な方向性があるのだなーというのを知るのには良いコンテンツのように感じています
+
 ## ライセンス
 - 本サイトのコンテンツには [表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja) のライセンスが適用されます
 - 詳細はリポジトリ内のLICENCEファイルをご参照下さい
