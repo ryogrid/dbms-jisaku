@@ -76,8 +76,8 @@
   - 排他制御に関してはテーブル単位で丸っとロックするといった対処も可能ですが、パフォーマンスは当然落ちます
 - ちなみに、B木（とその亜種）ベースのインデックスないしその手のものの設計・実装には様々なバリエーションがあるそうで、それだけで分厚い専門書が1冊存在します
   - [Goetz Graefe『Modern B-Tree Techniques (Foundations and Trends(r) in Databases)』](https://www.amazon.co.jp/Modern-B-Tree-Techniques-Foundations-Databases/dp/1601984820)
-  - うわぁ、いいお値段するし絶版本かぁと思ったあなた。ありがたいことに基本的には同様と思われる内容がpdfの形で公開されています
-    - [Web公開版](https://w6113.github.io/files/papers/btreesurvey-graefe.pdf)
+  - うわぁ、いいお値段するし絶版本かぁと思ったあなた。元々、論文が書籍化されたものであり、元論文はpdfの形で公開されています
+    - [元論文](https://w6113.github.io/files/papers/btreesurvey-graefe.pdf)
     - Graefe氏への respect を忘れないようにしつつ拝読しましょう
 
 ## その他の自作RDBMSに関連するトピック
