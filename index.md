@@ -74,6 +74,11 @@
   - それもあり、SamehadaDBでは 木構造ベースなインデックスの実装は後回しとする判断をしていたりします（2022/05/10 時点）
 - 従って、B+木でインデックスを実装してみるというのは学習という観点では良いことだと考えていますが、実用に耐えうるとは言わないまでも、基本的なSQLが通るものに仕上げようと思った際には地獄が待っているかもしれない、ということは念頭に置いておくとよいかもしれません
   - 排他制御に関してはテーブル単位で丸っとロックするといった対処も可能ですが、パフォーマンスは当然落ちます
+- ちなみに、B木（とその亜種）ベースのインデックスないしその手のものの設計・実装には様々なバリエーションがあるそうで、それだけで分厚い専門書が1冊存在します
+  - [Goetz Graefe『Modern B-Tree Techniques (Foundations and Trends(r) in Databases)』](https://www.amazon.co.jp/Modern-B-Tree-Techniques-Foundations-Databases/dp/1601984820)
+  - うわぁ、いいお値段するし絶版本かぁと思ったあなた。ありがたいことに基本的には同様と思われる内容がpdfの形で公開されています
+    - [Web公開版](https://w6113.github.io/files/papers/btreesurvey-graefe.pdf)
+    - Graefe氏への respect を忘れないようにしつつ拝読しましょう
 
 ## その他の自作RDBMSに関連するトピック
 - 何か載せたいものがあれば Pull Requestお願いします
