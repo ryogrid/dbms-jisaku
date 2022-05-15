@@ -12,7 +12,7 @@
 - 英語スラスラ読めるし、とっかかりさえあれば自分でどうにかできるという方はこちら
 - 以下のページに Database System について学ぶための情報源がリストされているので、適宜参照しながら進められると良いでしょう
   - [awesome-database-learning](https://github.com/pingcap/awesome-database-learning)
-- 以下の書籍で丸っとDatabase Systemに関する基礎知識と実装まで抑えるというのもよいと思います
+- 以下の書籍で丸っとDatabase Systemに関する基礎知識と実装まで押さえるというのもよいと思います
   - [ Edward Sciore 『Database Design and Implementation (Second Edition) 』](https://link.springer.com/book/10.1007/978-3-030-33836-7)
 
 ## 段階的に進んでいこうコース（= おおむね管理人が歩んだ道）
