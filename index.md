@@ -38,7 +38,7 @@
   - [一人トランザクション技術 Advent Calendar 2016 - Qiita](https://qiita.com/advent-calendar/2016/transaction)
   - 次のセクションのオープンコースウェアな講義で良く分からなかったときに参照する、というのでもよい気はします
 
-### オープンコースウェア（※）を活用して本格的な Relational Database System の実装について学ぼう
+### オープンコースウェア（※）を活用して本格的な RDBMS の実装について学ぼう
 - ※：大学や大学院などの高等教育機関で正規に提供された講義とその関連情報を、インターネットを通じて無償で公開する活動 (Wikipediaより）
 - ここについては以下のGitHubリポジトリにまとめておいたので、ひとまずそちらをご参照下さい
   - [ryogrid/CMU_lecture_DATABASE_SYSTEMS_materials](https://github.com/ryogrid/CMU_lecture_DATABASE_SYSTEMS_materials)
