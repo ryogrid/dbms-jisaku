@@ -53,7 +53,7 @@
 
 ### アドバンスドなところも実装していこう
 - BusTubには残念ながら planner/optimizer に相当するところの実装やフロントエンドの実装がありません
-  - サーバとして動作させたいのであれば、DBコネクタ（DBドライバ）やREST等の、NW越しにクエリを投げて結果取得できるインタフェースも必要ですが、フロントがないのでこれも当然ありません
+  - サーバとして動作させたいのであれば、DBコネクタ（DBドライバ）や REST API 等の、NW越しにクエリを投げて結果取得できるインタフェースも必要ですが、フロントがないのでこれも当然ありません
 - [awesome-database-learning](https://github.com/pingcap/awesome-database-learning) を参照して気合で実装するのも良いかもしれませんが、なかなか大変らしいです（管理人らもまだそこまで達していない）
 - というわけで、ハードコースの方で既出、かつ英語ではありますが、以下の書籍を参考に実装するとよいらしいです
   - [ Edward Sciore 『Database Design and Implementation (Second Edition) 』](https://link.springer.com/book/10.1007/978-3-030-33836-7)
@@ -67,6 +67,7 @@
 ### 戦いはさらに続く
 - ここまでに挙げたものは基本的なところを、比較的一般的かつ、さほど難度の高くない手法で実装している認識ですが、RDBMSをより良いものにしようと思えば、やれることは際限なくあります
 - 例えば、logging/recoveryにおけるsnapshotにARIESなどを採用するというのもよいでしょう
+- アクセス認証をどのように行うか、といったところを考えるのも面白いかも知れません
 - そのあたりは [awesome-database-learning](https://github.com/pingcap/awesome-database-learning) など参照して各自追求していきましょう（一緒に）
 - あと、自作 (R)DBMSの世界で定番？なコンテンツとして通称redbook（赤本）と呼ばれる 『Readings in Database Systems』というものがありまして、その内容は押さえておくとよいのだろうと思います
   - [Peter Bailis, Joseph M. Hellerstein, Michael Stonebraker, editors『Readings in Database Systems, 5th Edition』](https://www.redbook.io/)
