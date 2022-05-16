@@ -19,7 +19,7 @@
 - いきなり英語とか辛いので日本語な書籍等で基本を押さえてから段階的に進んでいきます
 - これがベストと言うつもりはないので、こういう世界線もあるよ、という方はよろしくサイト内リンクで飛べるような形でまとめて Pull Request を送っていただけるとありがたやです
 
-### 日本語の書籍で Database System の基本について押さえよう
+### 日本語の書籍で（Relational) Database System の基本について押さえよう
 - [北川 博之著 『データベースシステム 改訂2版』](https://www.amazon.co.jp/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-%E6%94%B9%E8%A8%822%E7%89%88-%E5%8C%97%E5%B7%9D%E5%8D%9A%E4%B9%8B-ebook/dp/B08BNXFRL3/)
   - 大学の情報系の講義などで用いられる教科書といった感じの書籍です
   - 実装寄りかと言えばそうでもないですが、基本を押さえておけば英語の情報にあたった時もなんとかなります
@@ -38,7 +38,7 @@
   - [一人トランザクション技術 Advent Calendar 2016 - Qiita](https://qiita.com/advent-calendar/2016/transaction)
   - 次のセクションのオープンコースウェアな講義で良く分からなかったときに参照する、というのでもよい気はします
 
-### オープンコースウェア（※）を活用して本格的な Database System の実装について学ぼう
+### オープンコースウェア（※）を活用して本格的な Relational Database System の実装について学ぼう
 - ※：大学や大学院などの高等教育機関で正規に提供された講義とその関連情報を、インターネットを通じて無償で公開する活動 (Wikipediaより）
 - ここについては以下のGitHubリポジトリにまとめておいたので、ひとまずそちらをご参照下さい
   - [ryogrid/CMU_lecture_DATABASE_SYSTEMS_materials](https://github.com/ryogrid/CMU_lecture_DATABASE_SYSTEMS_materials)
@@ -83,14 +83,14 @@
     - [元論文](https://w6113.github.io/files/papers/btreesurvey-graefe.pdf)
     - Graefe氏への respect を忘れないようにしつつ拝読しましょう
 
-## その他の自作RDBMSに関連するトピック
+## その他の自作RDBMSに役立ちそうな情報源
 - 何か載せたいものがあれば Pull Request お願いします
 - 下の"ほげほげ"のような感じで並べていければと思います
   - 必要であれば、<https://github.com/dbms-jisaku> の中にmdファイルなりhtmlファイルなり置いてもらって構いません
 - [ほげほげ](https://ryogrid.github.io/dbms-jisaku)
 
-## データベースシステムに関連するトピック
-- 上のセクションと基本同じ感じですが、自作RDBMSというところからは離れたトピックもOKとします
+## Database System に関連する情報源
+- 上のセクションと基本同じ感じですが、自作RDBMSというところからは離れてるかもーというものもOKとします
 - [DBSJ最強データベース講義](https://www.youtube.com/channel/UCaOkRhbjsqviiDQdKn-p0HA/videos)
   - 日本のデータベース研究者の方々がおおむね自身の研究分野を講義風に整理して説明している動画が公開されています
   - どういう位置づけとして捉えるかは微妙ですが、データベースシステムの世界も研究分野としては様々な方向性があるのだなー、というのを感じるには良いコンテンツのように思います
