@@ -53,6 +53,7 @@
 
 ### アドバンスドなところも実装していこう
 - BusTubには残念ながら planner/optimizer に相当するところの実装やフロントエンドの実装がありません
+  - サーバとして動作させたいのであれば、DBコネクタ（DBドライバ）やREST等の、NW越しにクエリを投げて結果取得できるインタフェースも必要ですが、フロントがないのでこれも当然ありません
 - [awesome-database-learning](https://github.com/pingcap/awesome-database-learning) を参照して気合で実装するのも良いかもしれませんが、なかなか大変らしいです（管理人らもまだそこまで達していない）
 - というわけで、ハードコースの方で既出、かつ英語ではありますが、以下の書籍を参考に実装するとよいらしいです
   - [ Edward Sciore 『Database Design and Implementation (Second Edition) 』](https://link.springer.com/book/10.1007/978-3-030-33836-7)
