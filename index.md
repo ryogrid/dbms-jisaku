@@ -67,7 +67,7 @@
 ### 戦いはさらに続く
 - ここまでに挙げたものは基本的なところを、比較的一般的かつ、さほど難度の高くない手法で実装している認識ですが、RDBMSをより良いものにしようと思えば、やれることは際限なくあります
 - 例えば、logging/recoveryにおける snapshot で ARIES などの fuzzy snapshot を実装してみるというのもよいでしょう
-- 実用を意識した場合、アクセス認証をどのように行うか、といったところを考えるのも面白いかも知れません
+- 実用を意識した場合、アクセス認証なども必要でしょうが、どのような方式に対応するか、認証データの保持周りの設計はどうすべきか、など考えてみると奥が深そうです
 - そのあたりは [awesome-database-learning](https://github.com/pingcap/awesome-database-learning) など参照して各自追求していきましょう（一緒に）
 - あと、自作 (R)DBMSの世界で定番？なコンテンツとして通称redbook（赤本）と呼ばれる 『Readings in Database Systems』というものがありまして、その内容は押さえておくとよいのだろうと思います
   - [Peter Bailis, Joseph M. Hellerstein, Michael Stonebraker, editors『Readings in Database Systems, 5th Edition』](https://www.redbook.io/)
