@@ -16,8 +16,18 @@
   - [ Edward Sciore 『Database Design and Implementation (Second Edition) 』](https://link.springer.com/book/10.1007/978-3-030-33836-7)
 
 ## 段階的に進んでいこうコース（= おおむね管理人が歩んだ道）
-- いきなり英語とか辛いので日本語な書籍等で基本を押さえてから段階的に進んでいきます
+- いきなり英語とか辛いので日本語なサイトや書籍等で基本を押さえてから段階的に進んでいきます
 - これがベストと言うつもりはないので、こういう世界線もあるよ、という方はよろしくサイト内リンクで飛べるような形でまとめて Pull Request を送っていただけるとありがたやです
+
+### 自作RDBMSしてる方々のブログ記事などを読んで雰囲気を感じよう
+Database Systemのアーキテクチャの概要などについて解説されている記事もあり入門者にはありがたい情報がたくさんです
+- [Kotlinで自作DBMS - zenn.dev](https://zenn.dev/keyem4251/articles/my-kotlin-dbms)
+- [自作DBを始めたい人におすすめの本 - salachike:blog](https://tarovel4842.hatenablog.com/entry/2021/12/20/084413)
+- [DBMSをGoで実装してみた - Sansan Builders Blog](https://buildersbox.corp-sansan.com/entry/2019/10/24/110000)
+- [自作DBMS Advent Calendar 2020 - Adventar](https://adventar.org/calendars/5548)
+- [Java8でRDBMS作ったよ](https://www.slideshare.net/nowokay/with-java8)
+  - オンメモリでの実装（ディスクへの永続化を行わない）かつ、シングルスレッド、型無しといった形で割り切った実装
+  - [ソースコード](https://github.com/kishida/sqlparser)
 
 ### 日本語の書籍で（Relational) Database System の基本について押さえよう
 - [北川 博之著 『データベースシステム 改訂2版』](https://www.amazon.co.jp/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-%E6%94%B9%E8%A8%822%E7%89%88-%E5%8C%97%E5%B7%9D%E5%8D%9A%E4%B9%8B-ebook/dp/B08BNXFRL3/)
