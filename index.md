@@ -25,7 +25,7 @@ Database Systemのアーキテクチャの概要などについて解説され�
 - [自作DBを始めたい人におすすめの本 - salachike:blog](https://tarovel4842.hatenablog.com/entry/2021/12/20/084413)
 - [DBMSをGoで実装してみた - Sansan Builders Blog](https://buildersbox.corp-sansan.com/entry/2019/10/24/110000)
 - [自作DBMS Advent Calendar 2020 - Adventar](https://adventar.org/calendars/5548)
-- [Java8でRDBMS作ったよ](https://www.slideshare.net/nowokay/with-java8)
+- [Java8でRDBMS作ったよ （きしだなおき氏の slide at slideshare）](https://www.slideshare.net/nowokay/with-java8)
   - オンメモリでの実装（ディスクへの永続化を行わない）かつ、シングルスレッド、型無しといった形での割り切った実装
   - [ソースコード](https://github.com/kishida/sqlparser)
 - [PostgreSQL 互換の DBMS を自作してみた - goropikariの備忘録](https://goropikari.hatenablog.com/entry/build_own_dbms)
