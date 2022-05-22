@@ -107,6 +107,12 @@ Database Systemのアーキテクチャの概要などについて解説され�
 - [DBSJ最強データベース講義](https://www.youtube.com/channel/UCaOkRhbjsqviiDQdKn-p0HA/videos)
   - 日本のデータベースシステム研究者の方々がおおむね自身の研究分野を講義風に整理して説明している動画が公開されています
   - どういう位置づけとして捉えるかは微妙ですが、Database Systemの世界も研究分野としては様々な方向性があるのだなー、というのを感じるには良いコンテンツのように思います
+- [Database of Databases](https://dbdb.io/)
+  - 名前はわざとひねりをつけてこうしてあるのだろうと思いますが、要は Database System の Database（データ・情報の方）です
+  - "オープンコースウェアを活用して本格的な RDBMS の実装について学ぼう" のセクションで紹介した講義の公開なども行っている [Carnegie Mellon Database Group](https://db.cs.cmu.edu/)が運営しているサイトのようです
+  - 誰しも知るプロダクトから、自作のDatabase Systemのようなものまで幅広く情報がインデックスされています
+  - 各々がどのような設計をとっているか、機能をサポートしているかといった情報も（入力されていれば）あるようなので、何かの用事で比較が必要な場合は特に便利そうです
+  - そうでなくとも、自作(R)DBMS勢であればダラダラ眺めても面白いかもしれません
 
 ## ライセンス
 - 本サイトのコンテンツには [表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja) のライセンスが適用されます
