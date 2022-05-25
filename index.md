@@ -101,6 +101,10 @@ Database Systemのアーキテクチャの概要などについて解説され�
 - 下の"ほげほげ"のような感じで並べていければと思います
   - 必要であれば、<https://github.com/dbms-jisaku> の中にmdファイルなりhtmlファイルなり置いてもらって構いません
 - [ほげほげ](https://ryogrid.github.io/dbms-jisaku)
+- [MITのDATABASE SYSTEMS](https://ocw.mit.edu/courses/6-830-database-systems-fall-2010/)
+  - MITのデータベースをスクラッチから作ってみようという講義。
+  - 2010年のもので時代を感じるが講義資料は公開されているし[実装](https://github.com/awelm/simpledb)もあるように見える。
+  - Optimizerに関してもSelingerだけどちゃんと説明と実装があって良さそう。
 
 ## Database System に関連する情報源
 - 上のセクションと基本同じ感じですが、自作RDBMSというところからは離れてるかもーというものもOKとします
