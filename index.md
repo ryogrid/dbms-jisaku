@@ -98,9 +98,8 @@ Database Systemのアーキテクチャの概要などについて解説され�
 
 ## その他の自作RDBMSに役立ちそうな情報源
 - 何か載せたいものがあれば Pull Request お願いします
-- 下の"ほげほげ"のような感じで並べていければと思います
+- 下の"MITのDATABASE SYSTEMS"のような感じで並べていければと思います
   - 必要であれば、<https://github.com/dbms-jisaku> の中にmdファイルなりhtmlファイルなり置いてもらって構いません
-- [ほげほげ](https://ryogrid.github.io/dbms-jisaku)
 - [MITのDATABASE SYSTEMS](https://ocw.mit.edu/courses/6-830-database-systems-fall-2010/)
   - MITのデータベースをスクラッチから作ってみようという講義
   - 2010年のもので時代を感じるが講義資料は公開されているし[実装](https://github.com/awelm/simpledb)もあるように見える
