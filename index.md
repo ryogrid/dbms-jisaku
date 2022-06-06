@@ -76,7 +76,11 @@ Database Systemのアーキテクチャの概要などについて解説され�
   - 同書を読みながらSimpleDBをC++で実装したという方がいて、GitHubにコードがあったりもします
     - [yutaroyamanaka/SimpleDB](https://github.com/yutaroyamanaka/SimpleDB)  
     - なお、本家SimpleDBの全てをカバーしているわけではないようです
-
+  - Rustで実装してみた方もいらっしゃるようです
+    - [cutsea110/simpledb](https://github.com/cutsea110/simpledb)
+    - [cliツールで操作しているデモ動画](https://t.co/Zib8V880Yn)
+      - このデモでは組み込みDBとして動かしているそうです
+      - NWやパイプを介してやりとりできるインタフェースまであるのかは未確認
 ### 戦いはさらに続く
 - ここまでに挙げたものは基本的なところを、比較的一般的かつ、さほど難度の高くない手法で実装している認識ですが、RDBMSをより良いものにしようと思えば、やれることは際限なくあります
 - 例えば、logging/recoveryにおける snapshot で ARIES などの fuzzy snapshot を実装してみるというのもよいでしょう
