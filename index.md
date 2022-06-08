@@ -79,9 +79,9 @@ Database Systemのアーキテクチャの概要などについて解説され�
   - Rustで実装してみた方もいらっしゃるようです
     - [cutsea110/simpledb](https://github.com/cutsea110/simpledb)
     - [cliツールで操作しているデモ動画](https://t.co/Zib8V880Yn)
-      - このデモでは組み込みDBとして動かしているそうです
-      - 220607時点ではNW越しでも動くようになっている模様
-        - プロトコルは独自のもののよう？
+      - NW通信越しに動作している模様
+      - プロトコルは [Cap’n Proto](https://capnproto.org/) を用いた[RPC](https://capnproto.org/cxxrpc.html) による独自のもののようです
+        - 使用しているクレート: [capnp-rpc-rust](https://crates.io/crates/capnp-rpc/)
 
 ### 戦いはさらに続く
 - ここまでに挙げたものは基本的なところを、比較的一般的かつ、さほど難度の高くない手法で実装している認識ですが、RDBMSをより良いものにしようと思えば、やれることは際限なくあります
