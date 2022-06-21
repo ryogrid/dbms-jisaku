@@ -123,6 +123,12 @@ Database Systemのアーキテクチャの概要などについて解説され�
   - 各々がどのような設計をとっているか、機能をサポートしているかといった情報も（入力されていれば）あるようなので、何かの用事で比較が必要な場合は便利そうです
   - 自作(R)DBMS勢であればただダラダラ眺めても面白いかもしれません
 
+## 交流の場（Slack）
+- 同好の士で交流を持てればと思い、『自作DBMS Slack』というものを作ってみました
+- 自作（R）DBMSやってる方、やってみたいと考えている方などなど、ご興味があればご参加ください
+- ROM専も可です
+- [招待リンク](https://join.slack.com/t/jisaku-dbms/shared_invite/zt-1bgotsi4g-~NRndNwaEjvEn98M5WjzTQ)
+
 ## ライセンス
 - 本サイトのコンテンツには [表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja) のライセンスが適用されます
 - 詳細はリポジトリ内のLICENCEファイルをご参照下さい
