@@ -89,7 +89,7 @@ Database Systemのアーキテクチャの概要などについて解説され�
 - 実用を意識した場合、アクセス認証なども必要でしょうが、どのような方式に対応するか、認証データの保持周りの設計はどうすべきか、など考えてみると奥が深そうです
 - そのあたりは [awesome-database-learning](https://github.com/pingcap/awesome-database-learning) など参照して各自追求していきましょう（一緒に）
 - あと、自作 (R)DBMSの世界で定番？なコンテンツとして通称redbook（赤本）と呼ばれる 『Readings in Database Systems』というものがありまして、その内容は押さえておくとよいのだろうと思います
-  - [Peter Bailis, Joseph M. Hellerstein, Michael Stonebraker, editors『Readings in Database Systems, 5th Edition』](https://www.redbook.io/)
+  - [Peter Bailis, Joseph M. Hellerstein, Michael Stonebraker, editors『Readings in Database Systems, 5th Edition』](http://www.redbook.io/)
 
 ### 余談
 - インデックスの実装にB+木が広く利用されているということで、ここまでに挙げた書籍でも採用されていることが多いですが、レコードの削除・更新および並行トランザクション実行における排他制御までサポートしようとすると途端に難易度が跳ね上がるそうです
@@ -125,8 +125,8 @@ Database Systemのアーキテクチャの概要などについて解説され�
 
 ## 交流の場（Slack）
 - 同好の士で交流を持てればと思い、『自作DBMS Slack』というものを作ってみました
-- 自作（R）DBMSやってる方、やってみたいと考えている方などなど、ご興味があればご参加ください
-- ROM専も可です
+- 自作（R）DBMSやってる方、やってみたいと考えている方、いつかやれたらいいなあと思っている方、DBMSについて内部の仕組みまで知りたいと考えている方、などなどご興味があればご参加ください
+- ROM専も可です b
 - [招待リンク](https://join.slack.com/t/jisaku-dbms/shared_invite/zt-1bgotsi4g-~NRndNwaEjvEn98M5WjzTQ)
 
 ## ライセンス
