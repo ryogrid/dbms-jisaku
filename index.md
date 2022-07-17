@@ -14,6 +14,10 @@
   - [awesome-database-learning](https://github.com/pingcap/awesome-database-learning)
 - 以下の書籍で丸っとDatabase Systemに関する基礎知識と実装まで押さえるというのもよいと思います
   - [ Edward Sciore 『Database Design and Implementation (Second Edition) 』](https://link.springer.com/book/10.1007/978-3-030-33836-7)
+- [awesome-dbdev](https://github.com/huachaohuang/awesome-dbdev)に基礎的な内容と論文がずらずら並んでいる
+  - DB自作するなら知っておきたい情報まとめ（ただし英語）
+  - 基礎的な内容とおすすめ論文の列挙って感じでDBの研究の外観を知るには良いけど、普通のRDBMSを普通に作るための情報っていう観点だと微妙に思います
+  - 論文pdfが全部リポジトリ内に入ってる
 
 ## 段階的に進んでいこうコース（= おおむね管理人が歩んだ道）
 - いきなり英語とか辛いので日本語なサイトや書籍等で基本を押さえてから段階的に進んでいきます
