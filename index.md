@@ -86,7 +86,7 @@ Database Systemのアーキテクチャの概要などについて解説され�
       - NW通信越しに動作している模様
       - プロトコルは [Cap’n Proto](https://capnproto.org/) を用いた[RPC](https://capnproto.org/cxxrpc.html) による独自のもののようです
         - 使用しているクレート: [capnp-rpc-rust](https://crates.io/crates/capnp-rpc/)
-  - Golangでの実装
+  - Golangでの実装もありました
     - [goropikari/simpledbgo](https://github.com/goropikari/simpledbgo)
     - PostgreSQLの通信プロトコルを実装していて、psqlコマンドで接続できるそう
 
