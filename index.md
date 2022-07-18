@@ -89,6 +89,7 @@ Database Systemのアーキテクチャの概要などについて解説され�
   - Golangでの実装
     - [goropikari/simpledbgo](https://github.com/goropikari/simpledbgo)
     - PostgreSQLの通信プロトコルを実装していて、psqlコマンドで接続できるそう
+
 ### 戦いはさらに続く
 - ここまでに挙げたものは基本的なところを、比較的一般的かつ、さほど難度の高くない手法で実装している認識ですが、RDBMSをより良いものにしようと思えば、やれることは際限なくあります
 - 例えば、logging/recoveryにおける snapshot で ARIES などの fuzzy snapshot を実装してみるというのもよいでしょう
