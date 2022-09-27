@@ -121,7 +121,7 @@ Database Systemのアーキテクチャの概要などについて解説され�
   - 必要であれば、<https://github.com/dbms-jisaku> の中にmdファイルなりhtmlファイルなり置いてもらって構いません
 - [UC berkeleyの Introduction to Database Systems](https://cs186berkeley.net/)
   - 上述なCMUの講義 [DATABSE SYSTEMS](https://15445.courses.cs.cmu.edu/fall2021/) における[BusTub](https://github.com/cmu-db/bustub)と同じような感じで [rookiedb](https://cs186.gitbook.io/project/)というRDBMSの実装を穴埋め形式で課題として学生に課している講義です
-    - コードはこちら: [berkeley-cs186/sp22-rookiedb](https://github.com/berkeley-cs186/sp22-rookiedb)
+    - コードはこちら: [berkeley-cs186/fa22-rookiedb](https://github.com/berkeley-cs186/fa22-rookiedb/)
       - BusTubではコードや課題の内容についての解説は少なくともテキストの形では存在しませんが、rookiedbについてはそのあたりについてもいくらか解説があり良い感じです。また、BusTubでカバーしていない範囲についても rookiedb では扱っています
     - なお、rookiedbの実装はSimpleDBなどと同様、Javaです
       - RDBMS開発のようなシステムプログラミングの用途においてJavaが適した技術選定かと言えば違うのではないかと管理人的には思いますが、黒魔術的な要素が少なく、比較的クセの少ないOOP言語という点で教育用途には向いている、ということなのかと思っています
