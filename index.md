@@ -24,7 +24,7 @@
 - これがベストと言うつもりはないので、こういう世界線もあるよ、という方はよろしくサイト内リンクで飛べるような形でまとめて Pull Request を送っていただけるとありがたやです
 
 ### 自作RDBMSしてる方々のブログ記事などを読んで雰囲気を感じよう
-Database Systemのアーキテクチャの概要などについて解説されている記事も含め、入門者にはありがたい情報がたくさんです
+Database Systemのアーキテクチャの概要などについて解説されている記事も含め、入門者にはありがたい情報がたくさんです。
 - [Kotlinで自作DBMS（keyem4251氏のZenn記事）](https://zenn.dev/keyem4251/articles/my-kotlin-dbms)
 - [自作DBを始めたい人におすすめの本 - salachike:blog](https://tarovel4842.hatenablog.com/entry/2021/12/20/084413)
 - [DBMSをGoで実装してみた - Sansan Builders Blog](https://buildersbox.corp-sansan.com/entry/2019/10/24/110000)
