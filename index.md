@@ -1,7 +1,7 @@
 # 自作RDBMSやろうぜ!
 ## このサイトの目的
-- RDBMS（いわゆるリレーショナルデータベース）というものはプログラミング言語の処理系や、OSなどと同様に、世の中で広く使われているソフトウェアであるにも関わらず、いざ自作してみようと思うと日本語で記述されたサイトで、必要な情報・情報源がまとまったサイトがないことに気づきました
-- そこで、叩き台として、本サイト管理人および数名のコミッタで開発している自作RDBMSである [SamehadaDB](https://github.com/ryogrid/SamehadaDB) が軌道に乗るまでの経験をベースに、自作RDBMSに関する情報をある程度整理して書き記してみました
+- RDBMS（いわゆるリレーショナルデータベース）というものはプログラミング言語の処理系や、OSなどと同様に、世の中で広く使われているソフトウェアであるにも関わらず、いざ自作してみようと思うと日本語で記述されたサイトや書籍で、必要な情報・情報源がまとまったものがないことに気づきました
+- そこで、叩き台として、本サイト管理人および数名のコミッタで開発している自作RDBMSである [SamehadaDB](https://github.com/ryogrid/SamehadaDB) が軌道に乗るまでの経験をベースに、自作RDBMSするための道筋をある程度整理して書き記してみました
   - 各々の情報・情報源はあいかわらず多くが英語で記述されていますが、その点はご容赦下さい
 - なお、本サイトは技術的な解説を提供するのではなく、適切と思われる情報・情報源をポイントするようなサイトとなることを想定しています
 - GitHub Pagesで構築したWebページですので、Pull Requestなど送っていただければ可能な限り反映しますし、集合知的なやり方で良いものにしていければと考えています
@@ -105,6 +105,12 @@ Database Systemのアーキテクチャの概要などについて解説され�
 - そのあたりは [awesome-database-learning](https://github.com/pingcap/awesome-database-learning) など参照して各自追求していきましょう（一緒に）
 - あと、自作 (R)DBMSの世界で定番？なコンテンツとして通称redbook（赤本）と呼ばれる 『Readings in Database Systems』というものがありまして、その内容は押さえておくとよいのだろうと思います
   - [Peter Bailis, Joseph M. Hellerstein, Michael Stonebraker, editors『Readings in Database Systems, 5th Edition』](http://www.redbook.io/)
+- RelationalなDBMSに限らず、並行性制御（Concurrency Control, CC）の手法はパフォーマンスやデータの整合性に大きく関わるものであり、今でも盛んに研究が行われているようです
+  - というところで、そのあたりを極めたい方は下の書籍など読んでみるとよいのだろうと思います
+  - Goetz Graefe著『[On Transactional Concurrency Control](https://link.springer.com/book/10.1007/978-3-031-01873-2)』
+- Databae System について丸っと論じている（解説している）論文もあり、論文と言われて想像するボリューム感ではないですが読み切れたらいいなあという一本です
+  - Joseph M. Hellerstein, Michael Stonebraker
+and James Hamilton, ["Architecture of a Database System"](https://scholar.google.co.jp/scholar?cluster=11466590537214723805&hl=ja&as_sdt=0,5)
 
 ### 余談
 - インデックスの実装にB+木が広く利用されているということで、ここまでに挙げた書籍でも採用されていることが多いですが、レコードの削除・更新および並行トランザクション実行における排他制御までサポートしようとすると途端に難易度が跳ね上がるそうです
