@@ -83,6 +83,8 @@ Database Systemのアーキテクチャの概要などについて解説され�
   - 通称、SimpleDB本とも呼ばれたりするらしく、SimpleDBというRDBMS実装（Java）をフロントエンドからストレージエンジンのところまで丸っと実装しています
   - SimpleDBのソースコードは著者のWebページから入手可能です
     - [The SimpleDB Database System](http://www.cs.bc.edu/~sciore/simpledb/)
+  - 読書メモを残されている方がおり、一読された方も未読の方も参考になります
+    - [読書メモ: Database Design and Implementation - Zenn](https://zenn.dev/hmarui66/scraps/850df4edc50c58)
   - 同書を読みながらSimpleDBをC++で実装したという方がいて、GitHubにコードがあったりもします
     - [yutaroyamanaka/SimpleDB](https://github.com/yutaroyamanaka/SimpleDB)  
     - なお、本家SimpleDBの全てをカバーしているわけではないようです
