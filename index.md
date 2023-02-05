@@ -123,7 +123,9 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
     - [元論文](https://w6113.github.io/files/papers/btreesurvey-graefe.pdf)
     - Graefe氏への respect を忘れないようにしつつ拝読しましょう
 - B+木でやりきる気合はないが、同じようなものは組み込みたいという方
-  - Skip ListというB+木とおおむね同じ機能性を実現でき、性能面も多少劣る程度で済むデータ構造があります
+  - Skip ListというB+木とおおむね同じ機能性を実現でき、性能面も"いくらか"劣る程度で済むデータ構造があります
+    - 探索の過程でアクセスするページ数がB+木より多くなってしまうために、DBMS内のディスクキャッシュとの相性の点で劣る、など
+    - 【参考】["Why are skip lists not preferred over B+-trees for databases? - Mond"](https://mond.how/ja/topics/sf5iaz7x8ub1to8/g2j0vtmf8oa08to)
   - 管理人はB+木から逃げてSkip List Indexというものを実装しまして、その時のノウハウを記事にしたためておきました
     - 手前味噌ですが、よければ参考にしてみて下さい
     - [自作RDBのためにオンディスク並行Skip Listを作ってみた - Qiita](https://qiita.com/ryo_grid/items/662ed4a069e4b9064dff) 
