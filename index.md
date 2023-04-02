@@ -143,6 +143,9 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
     - https://courses.cs.washington.edu/courses/cse444/22wi/sections/section1.pdf
   - で、この講義の内容を参考に実装を行った方がいらっしゃいました。コードを見た感じ一通り実装を終えているように見えます
     - https://github.com/LouisYLWang/SimpleDB
+      - 依存するライブラリ（jarファイル）があったり、それらの一部が元ソースに手を入れないと動かなかったりと苦労があったので、IntelliJ Idea 2022.1.3 で動く状態にしたリポジトリをforkして作ってみました
+      - ちょっと自信ないですがEclipseなどで開いても依存ライブラリやらビルドファイルはよしなに解釈してくれるのではないか・・・と思います
+      - https://github.com/ryogrid/SimpleDB_Washington
   - 実装のクラス図を作成して載せていたり、実装についての説明なども書かれていて、参考にするには大変分かりやすいように思いました
   - GUIを表示するようなコードが散見されますが、それが何なのかはちょっと分かっていません
 - [UC berkeleyの Introduction to Database Systems](https://cs186berkeley.net/)
