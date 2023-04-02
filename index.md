@@ -132,8 +132,19 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
 
 ## その他の自作RDBMSに役立ちそうな情報源
 - 何か載せたいものがあれば Pull Request お願いします
-- 下の"MITのDATABASE SYSTEMS"のような感じで並べていければと思います
-  - 必要であれば、<https://github.com/dbms-jisaku> の中にmdファイルなりhtmlファイルなり置いてもらって構いません
+- 必要であれば、<https://github.com/dbms-jisaku> の中にmdファイルなりhtmlファイルなり置いてもらって構いません
+- [University of Washingnton の Database Internals](https://courses.cs.washington.edu/courses/cse444/22sp/)
+  - ワシントン大学の講義
+  - 通称SimpleDB本というのがあって、それではSimpleDBというRDBMSを実装していますが、それとは別にこちらの講義でもSimepleDBというものをJavaで作るようです
+  - 講義の中で学生に共有されるひな型となるソースコードは公開されていないようですが、講義資料は公開されています
+    - https://courses.cs.washington.edu/courses/cse444/22sp/calendar/lecturelist.html
+    - https://courses.cs.washington.edu/courses/cse444/22wi/lectures/
+  - 講義の中で実装を行うSimpleDBの構成も以下で説明されています
+    - https://courses.cs.washington.edu/courses/cse444/22wi/sections/section1.pdf
+  - で、この講義の内容を参考に実装を行った方がいらっしゃいました。コードを見た感じ一通り実装を終えているように見えます
+    - https://github.com/LouisYLWang/SimpleDB
+  - 実装のクラス図を作成して載せていたり、実装についての説明なども書かれていて、参考にするには大変分かりやすいように思いました
+  - GUIを表示するようなコードが散見されますが、それが何なのかはちょっと分かっていません
 - [UC berkeleyの Introduction to Database Systems](https://cs186berkeley.net/)
   - 上述なCMUの講義 [DATABSE SYSTEMS](https://15445.courses.cs.cmu.edu/fall2021/) における[BusTub](https://github.com/cmu-db/bustub)と同じような感じで [rookiedb](https://cs186.gitbook.io/project/)というRDBMSの実装を穴埋め形式で課題として学生に課している講義です
     - コードはこちら: [berkeley-cs186/fa22-rookiedb](https://github.com/berkeley-cs186/fa22-rookiedb/)
