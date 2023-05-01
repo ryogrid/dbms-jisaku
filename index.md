@@ -174,10 +174,10 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
   - 自作(R)DBMS勢であればただダラダラ眺めても面白いかもしれません
 
 ## 交流の場（Slack）
-- 同好の士で交流を持てればと思い、『自作DBMS Slack』というものを作ってみました
+- 同好の士で交流を持てればと思い、『自作DBMS Discord』というものを運用しています（旧自作DBMS Slack）
 - 自作（R）DBMSやってる方、やってみたいと考えている方、いつかやれたらいいなあと思っている方、DBMSについて内部の仕組みまで知りたいと考えている方、などなど興味があればご参加ください
 - ROM専も可です b
-- [招待リンク](https://join.slack.com/t/jisaku-dbms/shared_invite/zt-1bgotsi4g-~NRndNwaEjvEn98M5WjzTQ)
+- [招待リンク](https://discord.gg/Z2XTK2EEB3)
 
 ## ライセンス
 - 本サイトのコンテンツには [表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja) のライセンスが適用されます
