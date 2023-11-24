@@ -97,6 +97,10 @@ Database Systemのアーキテクチャの概要などについて解説され�
   - Golangでの実装もありました
     - [goropikari/simpledbgo](https://github.com/goropikari/simpledbgo)
     - PostgreSQLの通信プロトコルを実装していて、psqlコマンドで接続できるそう
+- [kumagi/tinylamb](https://github.com/kumagi/tinylamb)
+  - フロントは無いようですがARIESやオプティマイザの実装までやっていて気合が入っている感のある実装
+  - このサイトで挙げているものは（SimpleDB本の）SimpleDB か BusTub をポーティングしたりエンハンスしたようなものが多いですが、これはどちらでもない模様
+  - 実装言語はC++
 
 ### 戦いはさらに続く
 - ここまでに挙げたものは基本的なところを、比較的一般的かつ、さほど難度の高くない手法で実装している認識ですが、RDBMSをより良いものにしようと思えば、やれることは際限なくあります
