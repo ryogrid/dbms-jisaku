@@ -168,8 +168,9 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
   - step by step でSQLiteのcloneを作ってみようというコンテンツ
   - 開発言語はC言語
 - [small-db](https://github.com/small-db/small-db)
-  - RustでDBMS
+  - RustでRDBMS
   - B+treeなインデックスが実装されている？？？
+    - 並行アクセス可ならすごいけど未チェックです
 
 ## Database System に関連する情報源
 - 上のセクションと基本同じ感じですが、自作RDBMSというところからは離れてるかもーというものもOKとします
