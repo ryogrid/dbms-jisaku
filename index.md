@@ -164,6 +164,12 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
   - MITのデータベースをスクラッチから作ってみようという講義
   - 2010年のもので時代を感じるが講義資料は公開されているし[実装](https://github.com/awelm/simpledb)もあるように見える
   - Optimizerに関してもSelingerだけどちゃんと説明と実装があって良さそう
+- [How Does a Database Work? - Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
+  - step by step でSQLiteのcloneを作ってみようというコンテンツ
+  - 開発言語はC言語
+- [small-db](https://github.com/small-db/small-db)
+  - RustでDBMS
+  - B+treeなインデックスが実装されている？？？
 
 ## Database System に関連する情報源
 - 上のセクションと基本同じ感じですが、自作RDBMSというところからは離れてるかもーというものもOKとします
