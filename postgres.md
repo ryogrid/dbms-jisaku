@@ -2,16 +2,17 @@
 
 # PostgreSQLに関する情報源
 - PostgreSQLについて知りたい
-  - [公式ページ](https://www.postgresql.org/)
+  - [公式サイト（postgresql.org）](https://www.postgresql.org/)
   - [公式Wiki（PostgreSQL Wiki）](https://wiki.postgresql.org/wiki/Main_Page)
   - [GitHubリポジトリ postgres/postgres](https://github.com/postgres/postgres)
-    - [公式リポジトリ](https://git.postgresql.org/gitweb/?p=postgresql.git;a=tree) の mirror
-      - URL（URI）
+    - GitHubのリポジトリは公式リポジトリのmirror
+    - mirrorであるがほぼほぼ同期されていると考えて問題ない
+  - [公式リポジトリ](https://git.postgresql.org/gitweb/?p=postgresql.git;a=tree)
+      - git cloneする際の指定URL
         - <pre>git://git.postgresql.org/git/postgresql.git</pre>
         - <pre>https://git.postgresql.org/git/postgresql.git</pre>
         - <pre>ssh://git@git.postgresql.org/postgresql.git</pre>
-    - mirrorであるがほぼほぼ同期されていると考えて問題ないと思われる
-- ビルドしたりデバッガで動作を追いかけたりしてみたい
+- ビルドしたりデバッガで動作を追いかけたりしたい
   - [第17章 ソースコードからインストール](https://www.postgresql.jp/docs/16/installation.html)
     - 公式ドキュメントを日本ユーザ会が翻訳したもの
     - [翻訳元](https://www.postgresql.org/docs/16/installation.html)
