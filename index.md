@@ -206,10 +206,10 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
     - [自作RDBのためにオンディスク並行Skip Listを作ってみた - Qiita](https://qiita.com/ryo_grid/items/662ed4a069e4b9064dff)
 
 ## 自作のその先へ
-- [PostgreSQLに関する情報 (やろうぜサイト内の別ページ）](./postgres)
-  - OSSのRDBMSの2大巨頭はMySQL（MariaDB）と PostgreSQLだと管理人は認識していますが、そのうちのPostgeSQLについての情報源を上ではリストしています
+- [PostgreSQLに関する情報源 (やろうぜサイト内の別ページ）](./postgres)
+  - OSSなRDBMSの2大巨頭はMySQL（MariaDB）と PostgreSQLだと管理人は認識していますが、そのうちのPostgeSQLについての情報源を上ではリストしています
     - なお、2大巨頭というところの母集団に組み込みDBは含めていません。組み込みDBを含めるとSQLiteがあるので・・・
-  - MVCCってどう実装するんだろう？とか、プロダクションで利用されるレベルだとどんな実装になるのだろう、といったところを知るためにコードやドキュメントを参照するのも良いかと思います
+  - MVCCってどう実装するのだろう？、プロダクションで利用されるレベルだとどのような実装になるのだろう？、といったところを知るためにコードやドキュメントを参照するのも良いかと思います
   - また、パッチを送ってコントリビューションしてみよう、といった方の参考になるかと思われる情報源もリストしています
 
 ## 交流の場（Discord）
