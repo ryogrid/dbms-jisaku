@@ -1,1 +1,40 @@
 # PostgreSQLに関する情報源
+- PostgreSQLについて知りたい
+  - [公式ページ](https://www.postgresql.org/)
+  - [公式Wiki（PostgreSQL Wiki）](https://wiki.postgresql.org/wiki/Main_Page)
+  - [GitHubリポジトリ postgres/postgres](https://github.com/postgres/postgres)
+    - [公式リポジトリ](https://git.postgresql.org/gitweb/?p=postgresql.git;a=tree) の mirror
+      - URL（URI）
+        - <pre>git://git.postgresql.org/git/postgresql.git</pre>
+        - <pre>https://git.postgresql.org/git/postgresql.git</pre>
+        - <pre>ssh://git@git.postgresql.org/postgresql.git</pre>
+    - mirrorであるがほぼほぼ同期されていると考えて問題ないと思われる
+- ビルドしたりデバッガで動作を追いかけたりしてみたい
+  - [第17章 ソースコードからインストール](https://www.postgresql.jp/docs/16/installation.html)
+    - 公式ドキュメントを日本ユーザ会が翻訳したもの
+    - [翻訳元](https://www.postgresql.org/docs/16/installation.html)
+      - URL内の番号がPostgreSQLのバージョンに対応している。可能な限り触っているもののマニュアルの参照を推奨
+  - [VSCodeで作るPostgreSQL開発環境（第25回 PostgreSQLアンカンファレンス@オンライン 発表資料）](https://www.slideshare.net/slideshow/postgresql-vscode-development-environment-pgunconf25-nttdata/249671570)
+  - [MesonでPostgreSQLをビルドしてみよう！（第39回PostgreSQLアンカンファレンス@オンライン 発表資料）](https://www.slideshare.net/slideshow/postgresql-meson-build-pgunconf39-nttdata/255944951)
+    - Windows環境でビルドするならMesonを使うのが安定
+      - ただし、Autoconfに慣れた人間からすると少々癖がある
+    - Gnu Makeより細粒度で依存性が記述されているせいか、ビルドを走らせた際の並列度が高くなっていくらか速い
+      - -j オプションを指定することもできるが、指定しなくてもよしなに並列度を決めて実行してくれる  
+    - Autoconfでビルドしたりなんだりする場合との対応表
+      - [Meson - PostgreSQL Wiki](https://wiki.postgresql.org/wiki/Meson)
+- 設計等について知りたい
+  - [上原一樹，勝俣智成，佐伯昌樹，原田登志 著『［改訂3版］内部構造から学ぶPostgreSQL―設計・運用計画の鉄則』](https://gihyo.jp/book/2022/978-4-297-13206-4)
+  - [PostgreSQL Internals - postgresqlinternals.org](https://www.postgresqlinternals.org/)
+  - [The Internals of PostgreSQL - interdb.jp](https://www.interdb.jp/pg/)
+  - [Backend Flowchart - PostgreSQL Wiki](https://wiki.postgresql.org/wiki/Backend_flowchart)
+- パッチを投稿してコントリビューションしてみたい
+  - [メーリングリストのアーカイブ閲覧他](https://www.postgresql.org/list/)
+  - [Developer FAQ - PostgreSQL Wiki](https://wiki.postgresql.org/wiki/Developer_FAQ)
+  - [So, you want to be a developer? - PostgreSQL Wiki](https://wiki.postgresql.org/wiki/So,_you_want_to_be_a_developer%3F)
+  - [Submitting a Patch - PostgreSQl Wiki](https://wiki.postgresql.org/wiki/Submitting_a_Patch)
+
+## ライセンス
+- 本サイトのコンテンツには [表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja) のライセンスが適用されます
+- 詳細はリポジトリ内のLICENCEファイルをご参照下さい
+- faviconについて
+  - [vaadin](https://icon-icons.com/ja/users/QLAfZ5Txo40x6pWfXduTy/icon-sets/)により作成されたアイコンであり [表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja) のライセンスの下で提供されているものです
