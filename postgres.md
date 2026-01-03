@@ -30,8 +30,13 @@
   - [PostgreSQL Internals - postgresqlinternals.org](https://www.postgresqlinternals.org/)
   - [The Internals of PostgreSQL - interdb.jp](https://www.interdb.jp/pg/)
   - [Backend Flowchart - PostgreSQL Wiki](https://wiki.postgresql.org/wiki/Backend_flowchart)
+  - [create_pg_super_document プロジェクト](https://github.com/ryogrid/create_pg_super_document)
+    - [概要はこちら](https://gist.github.com/ryogrid/709b026847b68b64b2fc36802d63262b)
 - パッチを投稿してコントリビューションしてみたい
   - [メーリングリストのアーカイブ閲覧他](https://www.postgresql.org/list/)
+    - PostgreSQLの開発はメーリングリストでのやり取りとそれを補助する commitfest というイベント？のシステムを主なコミュニケーションツールとしています
+  - [commitfests](https://commitfest.postgresql.org/)
+    - 年に5回に集中的にパッチ投稿したりレビューしたりするぜ！という時期が設けられており、それをcommitfestと呼んでいます
   - [Developer FAQ - PostgreSQL Wiki](https://wiki.postgresql.org/wiki/Developer_FAQ)
   - [So, you want to be a developer? - PostgreSQL Wiki](https://wiki.postgresql.org/wiki/So,_you_want_to_be_a_developer%3F)
   - [Submitting a Patch - PostgreSQl Wiki](https://wiki.postgresql.org/wiki/Submitting_a_Patch)
