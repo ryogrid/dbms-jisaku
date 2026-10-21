@@ -204,6 +204,8 @@ and James Hamilton, ["Architecture of a Database System"](https://scholar.google
   - 管理人はB+木から逃げてSkip List Indexというものを実装しまして、その時のノウハウを記事にしたためておきました
     - 手前味噌ですが、よければ参考にしてみて下さい
     - [自作RDBのためにオンディスク並行Skip Listを作ってみた - Qiita](https://qiita.com/ryo_grid/items/662ed4a069e4b9064dff)
+- なお、のちに、コーディングエージェントの力を借りて、シンプルな[並行アクセス可能なB+木（をインデクスとした組み込みKVS）](https://github.com/ryogrid/concurrent-bp-tree)をトラディショナルなアルゴリズムで実装してみたりもしました
+  - ついでに[実装したものを通して並行B+木実装の解説をするページ](https://ryogrid.github.io/concurrent-bp-tree/index.html)
 
 ## 自作のその先へ
 - [PostgreSQLに関する情報源 (やろうぜサイト内の別ページ）](./postgres)
